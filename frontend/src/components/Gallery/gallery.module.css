@@ -1,0 +1,40 @@
+/* src/App.css */
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&family=Roboto+Condensed:ital,wght@1,700&family=Tilt+Prism&display=swap');
+
+/* other styles follow... */
+
+*{
+    box-sizing: border-box;
+}
+#main{
+    padding: 20px;
+    border: green 2px solid;
+    background-color: brown;
+}
+#scrollingimages{
+    overflow:auto
+}
+.img{
+    display: inline;
+    width:360px;
+    height: 360px;
+    margin: 20px;
+    object-fit: cover;
+    border-radius: 40px;
+    transition: width 1s, height 2s;
+}
+.img:hover{
+    width: 366px;
+    height: 366px;
+
+
+}
+h1{
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Tilt Prism', cursive;
+    color: rgb(191, 210, 176);
+
+
+}

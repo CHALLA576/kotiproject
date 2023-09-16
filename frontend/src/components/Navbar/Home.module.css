@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+#nav{
+    position: -webkit-sticky;
+    position: sticky;
+    background-image: url("./jj-ying-8bghKxNU1j0-unsplash.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.items{
+    display: flex;
+    display: inline-block;
+    margin: 30px;
+    width: 130px;
+    height: 20px;
+    font-size: 20px;
+    color: orange;
+    
+
+  
+}
+.items:hover{
+color: white;
+height: 20px;
+width: 150px;
+text-shadow: 3px 3px 15px rgb(222, 14, 48);
+
+
+
+  
+}
+
+
+
+
+
+
+#logout{
+    display: flex;
+    display: inline-block;
+    margin-left: 200px;
+    color: red;
+    font-size: 20px;
+    transition: width 2s, height 5s;
+   
+}

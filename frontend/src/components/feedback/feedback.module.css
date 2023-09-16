@@ -1,0 +1,14 @@
+#main{
+    position: relative;
+    background-color: aqua;
+    width: 1000px;
+    height: 1000px;
+}
+#sub{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background-color: blue;
+    margin-left: 400px;
+    margin-top: 30px;
+}

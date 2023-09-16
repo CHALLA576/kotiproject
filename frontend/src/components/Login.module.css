@@ -1,0 +1,100 @@
+
+#main{
+    width :100%;
+    height: 1000px;
+    background-color: rgb(231, 250, 215);
+    position: relative;
+
+
+    
+
+   
+}
+#sub{
+    background-color: rgb(101, 47, 217);
+    position: absolute;
+    box-shadow: 2px 2px 8px red;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 20px;
+    width: 40%;
+    height: 60%;
+    border: 4px rgb(146, 9, 32) solid;
+    border-bottom-left-radius: 90px;
+    border-top-right-radius: 90px;
+
+}
+.label{
+    margin-left:180px;
+
+}
+.input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 180px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    box-shadow: 5px 5px 15px white;
+}
+.input{
+    font-size: 21px;
+}
+
+
+
+
+.input:hover{
+    border-radius: 12px;
+    border: none;
+    padding: 10px;
+  
+    
+
+}
+
+#button{
+    border-radius: 20px;
+    margin-left: 180px;
+    font-size: 30px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    box-shadow: 5px 5px 15px white;
+    padding: 10px 20px;
+    background-color: brown;
+    
+
+}
+#button:hover{
+    background-color: green;
+}
+#link{
+    text-decoration: none;
+    font-size: 30px;
+    transition: width 3s height 6s;
+    margin-left: 180px;
+    background-color: blueviolet;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+#link:hover{
+    text-decoration: none;
+    background-color: cadetblue;
+    
+}
+
+#sub{
+font-family: 'Cabin', sans-serif;
+font-size: 20px;
+
+}
+#sign{
+font-family: 'Cabin', sans-serif;
+font-size: 50px 50px;
+color: black;
+margin-left: 200px;
+margin-top: 20px;
+
+
+}
